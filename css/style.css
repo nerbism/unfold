@@ -118,6 +118,7 @@
     margin-top: 10px;
     text-transform: uppercase;
     letter-spacing: 2px;
+    transition: 0.5s;
 }
 
 .text a:hover {
