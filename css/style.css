@@ -24,6 +24,11 @@
     transition: 0.55s;
 }
 
+.showcase a {
+    text-decoration: none;
+    color: white;
+}
+
 .showcase.active {
     right: 300px;
 }
