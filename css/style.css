@@ -24,6 +24,10 @@
 
 }
 
+.showcase.active {
+    right: 300px;
+}
+
 .showcase header {
     position: absolute;
     top: 0;
@@ -160,6 +164,37 @@
 
 }
 
+
+.menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.menu ul {
+    position: relative;
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+
+}
+
+
+.menu ul li a:hover {
+    color: purple;
+}
+
+
 @media(max-width:990px) {
     .showcase, .showcase header {
         padding: 40px;
@@ -173,5 +208,5 @@
         font-size: 2em;
     }
 
-    
+
 }
