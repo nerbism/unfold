@@ -33,11 +33,21 @@
 
     <div class="menu">
         <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">HOME</a></li>
+            <li><a href="#">Discord</a></li>
+            <li><a href="#">YouTube</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#"></a></li>
         </ul>
     </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', ()=> {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
 </body>
 </html>
