@@ -194,6 +194,10 @@
     color: purple;
 }
 
+.menu .current {
+    color: purple;
+}
+
 
 @media(max-width:798px) {
     .showcase, .showcase header {
