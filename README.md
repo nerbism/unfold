@@ -33,3 +33,9 @@ To run the Unfold Fitness App locally, follow these steps:
 
 ## Technologies Used
 - HTML, CSS, and JavaScript for the user interface
+
+
+## Status 
+- Complete. 
+
+
