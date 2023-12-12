@@ -135,9 +135,13 @@
     filter: invert(100%) brightness(1000%);
 }
 
+.socials #discord {
+    transform: scale(0.9);
+}
 .social img {
     width: 30px;
 }
+
 
 .social li {
     list-style: none;
