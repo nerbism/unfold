@@ -124,3 +124,17 @@
 .text a:hover {
     letter-spacing: 5px;
 }
+
+.social {
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    z-index: 10;
+    justify-content: center;
+    justify-items: center;
+    filter: invert(100%) brightness(1000%);
+}
+
+.social img {
+    width: 30px;
+}
