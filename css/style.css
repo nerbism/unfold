@@ -196,6 +196,7 @@
 
 .menu .current {
     color: purple;
+    text-decoration: underline;
 }
 
 
